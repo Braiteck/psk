@@ -1,0 +1,130 @@
+@media (max-width: 1023px)
+{
+    /*---------------
+        Main styles
+    ---------------*/
+    .content_flex .content
+    {
+        width: 100%;
+    }
+
+
+
+    /*---------------
+        Header
+    ---------------*/
+    header .location
+    {
+        margin-right: 20px;
+    }
+
+    header .location .nice-select .current,
+    header .location .nice-select .list .list_item
+    {
+        font-size: var(--font_size);
+    }
+
+
+
+    header .time
+    {
+        display: none;
+    }
+
+
+
+    header .info
+    {
+        padding: 20px 0;
+    }
+
+
+
+    #login_modal
+    {
+        right: 0;
+        left: auto;
+    }
+
+
+
+    /*---------------
+        Sidebar
+    ---------------*/
+    aside
+    {
+        width: 100%;
+    }
+
+    aside > *
+    {
+        display: none;
+
+        margin-bottom: 20px;
+    }
+
+    aside > * + *
+    {
+        margin-top: 0;
+    }
+
+
+    aside .filter
+    {
+        display: block;
+    }
+
+    aside .filter .title
+    {
+        font-size: 16px;
+
+        min-height: 50px;
+    }
+
+    aside .filter .form
+    {
+        display: none;
+    }
+
+
+
+    /*---------------
+        Main section
+    ---------------*/
+    .for_any_tasks .item .name
+    {
+        font-size: 18px;
+    }
+
+
+
+    /*---------------
+        Footer
+    ---------------*/
+    footer .col
+    {
+        width: calc(33.333% - 20px);
+    }
+
+    footer .col:last-child
+    {
+        width: calc(66.666% - 20px);
+    }
+
+    footer .links
+    {
+        width: calc(100% - 20px);
+    }
+
+
+    footer .links .columns
+    {
+        column-count: 3;
+    }
+
+
+
+    /*---------------
+        PopUp
+    ---------------*/
+}

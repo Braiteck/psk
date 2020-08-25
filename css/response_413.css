@@ -1,0 +1,733 @@
+@media (max-width: 413px)
+{
+    /*---------------
+        Main styles
+    ---------------*/
+    .text_block h2
+    {
+        line-height: 22px;
+    }
+
+
+
+    .page_title
+    {
+        text-align: center;
+    }
+
+
+
+    .text_block .table_wrap,
+    .text_block .cols,
+    .text_block hr,
+    .text_block .slider_in_text
+    {
+        margin-top: 30px;
+        margin-bottom: 30px;
+    }
+
+    .slider_in_text .owl-carousel .owl-dots
+    {
+        bottom: 15px;
+    }
+
+
+    .text_block table
+    {
+        width: 884px;
+    }
+
+
+
+    .form .columns > *.width1of4,
+    .form .columns > *.width2of4,
+    .form .columns > *.width1of5,
+    .form .columns > *.width2of5
+    {
+        width: calc(100% - var(--columns_offset));
+    }
+
+
+    .form input[type=file] + label
+    {
+        max-width: 100%;
+    }
+
+
+
+    /*---------------
+        Header
+    ---------------*/
+    #login_modal
+    {
+        padding: 20px;
+    }
+
+
+    header .phones
+    {
+        margin-right: auto;
+        margin-left: auto;
+        padding-left: 43px;
+
+        background-size: auto;
+    }
+
+
+    header .email
+    {
+        display: none;
+    }
+
+
+
+    /*---------------
+        Sidebar
+    ---------------*/
+
+
+
+    /*---------------
+        Main section
+    ---------------*/
+    .cats_wall .flex > *,
+    .advantages .flex .item
+    {
+        width: calc(50% - 15px);
+        margin-left: 15px;
+    }
+
+
+
+    .cats_wall .flex
+    {
+        margin-left: -15px;
+    }
+
+    .cats_wall .main
+    {
+        font-size: 13px;
+        line-height: 17px;
+
+        text-align: center;
+    }
+
+    .cats_wall .main .thumb
+    {
+        padding-bottom: 60%;
+    }
+
+    .cats_wall .main .thumb .img
+    {
+        justify-content: center;
+    }
+
+
+
+    .cats_wall .accordion .item .title
+    {
+        font-size: 14px;
+
+        padding-right: 15px;
+    }
+
+    .cats_wall .accordion .item .title:after
+    {
+        font-size: 17px;
+        line-height: 17px;
+
+        height: 17px;
+    }
+
+    .cats_wall .accordion .item .data
+    {
+        padding-top: 0;
+    }
+
+    .cats_wall .accordion .item .sub_cats
+    {
+        column-count: 1;
+        column-gap: 0;
+    }
+
+    .cats_wall .accordion .item .sub_cats > * + *
+    {
+        margin-top: 10px;
+    }
+
+
+
+    .tags_cloud.bg
+    {
+        padding: 15px;
+    }
+
+    .tags_cloud .data a
+    {
+        white-space: normal;
+    }
+
+
+
+    .services .list .item .name
+    {
+        width: 215px;
+        min-width: 215px;
+    }
+
+
+    .services .flex .item
+    {
+        font-size: 13px;
+        line-height: 17px;
+    }
+
+
+
+    .text_block .knowledge_base,
+    .knowledge_base
+    {
+        width: calc(100% + 30px);
+        max-width: calc(100% + 30px);
+        margin-right: -15px;
+        margin-left: -15px;
+    }
+
+    .knowledge_base a
+    {
+        padding-left: 120px;
+    }
+
+    .knowledge_base .icon
+    {
+        left: -50px;
+    }
+
+    .knowledge_base .info .name
+    {
+        font-size: 18px;
+        line-height: 22px;
+    }
+
+
+
+
+    .advantages .flex
+    {
+        margin-bottom: -30px;
+        margin-left: -15px;
+    }
+
+    .advantages .item
+    {
+        line-height: 17px;
+    }
+
+    .advantages .item > * + *
+    {
+        margin-top: 10px;
+    }
+
+    .advantages .item .name
+    {
+        font-size: 13px;
+    }
+
+
+
+    .projects .item .links a.details
+    {
+        font-size: 13px;
+
+        width: 110px;
+    }
+
+    .projects .item .links a
+    {
+        width: calc(100% - 134px);
+    }
+
+
+    .projects .item.all .count
+    {
+        margin-top: 45px;
+    }
+
+
+
+    .content .head
+    {
+        margin-bottom: 20px;
+    }
+
+
+
+    .view
+    {
+        text-align: center;
+
+        justify-content: center;
+    }
+
+    .view .name
+    {
+        width: 100%;
+        margin: 0 0 10px;
+    }
+
+
+
+    .sort a
+    {
+        padding: 0 16px;
+    }
+
+
+
+    .tags_cloud .data
+    {
+        padding: 15px 16px;
+    }
+
+
+
+    .products .block_head .title
+    {
+        font-size: 16px;
+    }
+
+
+
+    .reviews .slider
+    {
+        margin-bottom: 20px;
+    }
+
+    .reviews .owl-carousel .owl-dots
+    {
+        bottom: -20px;
+    }
+
+
+
+    .feedback .form .submit
+    {
+        flex-wrap: wrap;
+    }
+
+    .feedback .form .contacts
+    {
+        width: 100%;
+        margin-bottom: 15px;
+    }
+
+
+
+    .get_price
+    {
+        padding: 15px;
+    }
+
+    .get_price .title
+    {
+        font-size: 16px;
+    }
+
+
+
+    .classification .accordion .item .title
+    {
+        font-size: 16px;
+
+        padding-right: 15px;
+    }
+
+    .classification .accordion .item .title:after
+    {
+        font-size: 19px;
+        line-height: 19px;
+
+        height: 19px;
+    }
+
+
+
+    .calc .data .form
+    {
+        --form_label_width: 130px;
+    }
+
+    .calc .data .form .line.flex .field
+    {
+        width: calc(100% - var(--form_label_width) - 35px);
+    }
+
+    .calc .data .form .unit
+    {
+        width: 35px;
+        min-width: 35px;
+        padding-left: 6px;
+    }
+
+    .calc .data .form .submit_btn
+    {
+        width: 100%;
+    }
+
+    .calc .data .form .call
+    {
+        width: 100%;
+        max-width: 100%;
+        margin-top: 13px;
+        margin-left: 0;
+
+        text-align: center;
+    }
+
+    .calc .data .form .price
+    {
+        margin-top: 13px;
+
+        text-align: center;
+
+        justify-content: center;
+    }
+
+    .calc .data .form .price b
+    {
+        display: block;
+
+        width: 100%;
+        margin-top: 3px;
+        margin-left: 0;
+    }
+
+
+    .calc .bottom .total
+    {
+        width: 100%;
+
+        text-align: center;
+    }
+
+
+    .calc .bottom .form .columns > *
+    {
+        width: calc(100% - var(--columns_offset));
+    }
+
+    .calc .bottom .form .submit
+    {
+        width: 100%;
+    }
+
+
+
+    .special_price .block
+    {
+        width: calc(100% + 30px);
+        margin-right: -15px;
+        margin-left: -15px;
+        padding: 20px 15px;
+    }
+
+    .special_price .data .title
+    {
+        font-size: 16px;
+        line-height: 22px;
+    }
+
+
+    .special_price .data .exp
+    {
+        padding: 12px 15px;
+    }
+
+
+    .special_price .banner .thumb
+    {
+        width: 100%;
+        padding-bottom: 100%;
+    }
+
+    .special_price .banner .info
+    {
+        font-size: 18px;
+
+        width: 100%;
+    }
+
+
+    .special_price .manager .title
+    {
+        font-size: 20px;
+        line-height: 22px;
+    }
+
+    .special_price .manager .desc
+    {
+        line-height: 18px;
+
+        margin-bottom: 15px;
+    }
+
+    .special_price .manager .form .line
+    {
+        width: 100%;
+        margin-bottom: 10px;
+    }
+
+    .special_price .manager .form .submit
+    {
+        width: 100%;
+        margin-top: 0;
+    }
+
+
+
+    .services_tabs .tabs a
+    {
+        padding: 8px 15px;
+    }
+
+    .services_tabs .tab_content
+    {
+        padding: 15px;
+    }
+
+    .services_tabs .text_block
+    {
+        text-align: left;
+    }
+
+
+
+    .service_sub_cats .item .name
+    {
+        padding: 13px 15px;
+    }
+
+    .service_sub_cats .price
+    {
+        top: 10px;
+        left: 10px;
+    }
+
+    .service_sub_cats .item .get_price_link
+    {
+        bottom: 10px;
+        left: 10px;
+    }
+
+
+
+    .why .item
+    {
+        padding-left: 75px;
+    }
+
+    .why .item .name
+    {
+        display: flex;
+
+        min-height: 51px;
+
+        justify-content: flex-start;
+        align-items: center;
+        align-content: center;
+        flex-wrap: wrap;
+    }
+
+    .why .item .text_block
+    {
+        width: calc(100% + 75px);
+        margin-left: -75px;
+    }
+
+
+
+    .order .form
+    {
+        padding: 15px;
+    }
+
+    .order .form .step .title
+    {
+        font-size: 16px;
+    }
+
+
+
+    .history .year_info
+    {
+        padding-bottom: 40px;
+        padding-left: 0;
+    }
+
+    .history .year_info .year
+    {
+        font-size: 20px;
+
+        position: relative;
+        top: 0;
+
+        width: 100%;
+        margin-bottom: 10px;
+        padding: 0 0 0 27px;
+
+        text-align: left;
+    }
+
+    .history .year_info .year:after
+    {
+        top: 3px;
+        right: auto;
+        bottom: auto;
+        left: 0;
+    }
+
+    .history .year_info:before
+    {
+        display: none;
+    }
+
+
+
+    .reviews_list .level1 > .item > .title
+    {
+        font-size: 14px;
+
+        padding: 12px 15px 12px 35px;
+    }
+
+    .reviews_list .level1 > .item > .title:after
+    {
+        top: 8px;
+    }
+
+    .reviews_list .level1 > .item > .data
+    {
+        padding: 5px 15px 15px 35px;
+    }
+
+
+    .reviews_list .level2 .active .title
+    {
+        font-size: 15px;
+    }
+
+
+
+    .add_review .title
+    {
+        font-size: 16px;
+        line-height: 20px;
+    }
+
+    .add_review .form .submit_btn
+    {
+        width: 100%;
+        margin-top: 10px;
+    }
+
+
+
+    .company_accordion .item .title
+    {
+        font-size: 14px;
+
+        padding: 12px 15px 12px 35px;
+    }
+
+    .company_accordion .item .title:after
+    {
+        top: 8px;
+    }
+
+    .company_accordion .item .data
+    {
+        padding: 5px 15px 15px 35px;
+    }
+
+
+
+    .geography .regions img
+    {
+        max-width: calc(25% - 20px);
+    }
+
+
+
+    .alphabet
+    {
+        font-size: 14px;
+
+        padding: 15px;
+    }
+
+
+
+    .current_letter
+    {
+        padding-left: 45px;
+    }
+
+    .current_letter .links a
+    {
+        font-size: 13px;
+    }
+
+
+
+    .alphabet_full .item
+    {
+        padding-left: 45px;
+    }
+
+
+
+    .brands_logos .flex > *
+    {
+        width: calc(50% - 20px);
+    }
+
+
+
+    .brands_alphabet .list
+    {
+        column-count: 1;
+        column-gap: 0;
+    }
+
+
+
+    .term_current_letter .links,
+    .term_alphabet_full .list
+    {
+        column-count: 1;
+        column-gap: 0;
+    }
+
+
+
+    /*---------------
+        Footer
+    ---------------*/
+    footer .col,
+    footer .col:last-child
+    {
+        width: calc(100% - 20px);
+    }
+
+
+    footer .links
+    {
+        margin-bottom: 30px;
+    }
+
+
+
+    /*---------------
+        PopUp
+    ---------------*/
+}

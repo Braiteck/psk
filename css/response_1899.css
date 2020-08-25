@@ -1,0 +1,318 @@
+@media (min-width: 1279px)
+{
+    /*---------------
+        Main styles
+    ---------------*/
+    .tab_content
+    {
+        padding: 25px;
+    }
+
+
+
+    /*---------------
+        Header
+    ---------------*/
+    header .time
+    {
+        margin-right: 155px;
+    }
+
+
+    header .menu
+    {
+        width: calc(100% - 399px);
+    }
+
+
+    header .search
+    {
+        width: 336px;
+    }
+
+
+
+    /*---------------
+        Sidebar
+    ---------------*/
+
+
+
+    /*---------------
+        Main section
+    ---------------*/
+    .cats_wall .flex
+    {
+        margin-bottom: -45px;
+        margin-left: -75px;
+    }
+
+    .cats_wall .flex > *
+    {
+        width: calc(25% - 75px);
+        margin-bottom: 45px;
+        margin-left: 75px;
+    }
+
+
+    .cats_wall .main
+    {
+        font-size: 18px;
+        line-height: 26px;
+    }
+
+
+
+    .advantages .flex
+    {
+        margin-bottom: -45px;
+        margin-left: -65px;
+    }
+
+    .advantages .flex .item
+    {
+        width: calc(25% - 65px);
+        margin-bottom: 45px;
+        margin-left: 65px;
+    }
+
+
+
+    .services .list
+    {
+        display: flex;
+
+        margin-bottom: -21px;
+        margin-left: -21px;
+
+        justify-content: flex-start;
+        align-items: flex-start;
+        align-content: flex-start;
+        flex-wrap: wrap;
+    }
+
+    .services .list > * + *
+    {
+        margin-top: 0;
+    }
+
+    .services .list .item
+    {
+        width: calc(50% - 21px);
+        margin-bottom: 21px;
+        margin-left: 21px;
+    }
+
+
+    .services .flex
+    {
+        margin-bottom: -45px;
+        margin-left: -76px;
+    }
+
+    .services .flex > *
+    {
+        width: calc(25% - 76px);
+        margin-bottom: 45px;
+        margin-left: 76px;
+    }
+
+
+
+    .projects .flex
+    {
+        margin-bottom: -16px;
+        margin-left: -16px;
+    }
+
+    .projects .flex .item
+    {
+        width: calc(33.333% - 16px);
+        margin-bottom: 16px;
+        margin-left: 16px;
+    }
+
+
+
+    .cats_wall .accordion .item + .item
+    {
+        margin-top: 15px;
+    }
+
+    .cats_wall .accordion .item .title
+    {
+        padding: 20px 40px;
+    }
+
+    .cats_wall .accordion .item .title:after
+    {
+        top: 20px;
+        left: 11px;
+
+        width: 29px;
+    }
+
+    .cats_wall .accordion .item .data
+    {
+        padding: 5px 40px 30px;
+    }
+
+    .cats_wall .accordion .item .sub_cats
+    {
+        column-count: 4;
+        column-gap: 75px;
+    }
+
+
+
+    .products .flex
+    {
+        margin-bottom: -40px;
+        margin-left: -20px;
+    }
+
+    .products .flex .product
+    {
+        width: calc(20% - 20px);
+        margin-bottom: 40px;
+        margin-left: 20px;
+    }
+
+
+
+    .calc .data .form .cols
+    {
+        margin-left: -60px;
+    }
+
+    .calc .data .form .cols .col
+    {
+        width: calc(33.333% - 60px);
+        margin-left: 60px;
+    }
+
+    .calc .data .form .line.flex .field
+    {
+        width: calc(100% - var(--form_label_width) - 45px);
+    }
+
+    .calc .data .form .unit
+    {
+        width: 45px;
+        min-width: 45px;
+        padding-left: 10px;
+    }
+
+    .calc .data .form .price
+    {
+        width: calc(200% + 120px);
+    }
+
+    .calc .data .form .submit
+    {
+        width: calc(100% - 60px);
+        margin-left: 60px;
+    }
+
+
+
+    .special_price .block
+    {
+        padding: 30px;
+    }
+
+    .special_price .data
+    {
+        width: calc(100% - 275px);
+    }
+
+    .special_price .data .title
+    {
+        font-size: 21px;
+        line-height: 27px;
+    }
+
+    .special_price .data .sold:after
+    {
+        right: -80px;
+    }
+
+    .special_price .data .text_block ul
+    {
+        margin-left: 18px;
+    }
+
+
+
+    .services_tabs .tab_content
+    {
+        padding: 25px;
+    }
+
+
+
+    .service_sub_cats .flex > *
+    {
+        width: calc(33.333% - 20px);
+    }
+
+    .service_sub_cats .item .name
+    {
+        font-size: 15px;
+    }
+
+
+
+    .order .form
+    {
+        padding: 25px;
+    }
+
+    .order .form .columns
+    {
+        margin-left: -45px;
+
+        --columns_offset: 45px;
+    }
+
+
+
+    /*---------------
+        Footer
+    ---------------*/
+    footer .info .flex
+    {
+        margin-left: -30px;
+    }
+
+    footer .col
+    {
+        width: calc(16.666% - 30px);
+        margin-left: 30px;
+    }
+
+
+
+    footer .links
+    {
+        width: calc(66.666% - 30px);
+    }
+
+    footer .links .columns
+    {
+        column-count: 4;
+    }
+
+
+
+    footer .bottom a.privacy_policy
+    {
+        margin-left: 40px;
+    }
+
+
+
+    /*---------------
+        PopUp
+    ---------------*/
+}

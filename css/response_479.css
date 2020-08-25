@@ -1,0 +1,451 @@
+@media (max-width: 479px)
+{
+    /*---------------
+        Main styles
+    ---------------*/
+    :root
+    {
+        --font_size_title: 18px;
+    }
+
+
+
+    .cont
+    {
+        padding: 0 15px;
+    }
+
+
+
+    .page_title
+    {
+        font-size: 17px;
+        line-height: 21px;
+
+        padding-left: 0;
+    }
+
+    .page_title:before
+    {
+        display: none;
+    }
+
+
+    .overlay
+    {
+        opacity: .9;
+    }
+
+
+
+    .breadcrumbs .cont > *
+    {
+        display: none;
+    }
+
+    .breadcrumbs .cont > *:first-child,
+    .breadcrumbs .cont > *:last-child
+    {
+        display: inline;
+    }
+
+    .breadcrumbs .cont > *:first-child + .sep
+    {
+        display: inline-block;
+    }
+
+
+
+    .tabs a
+    {
+        padding: 6px 16px;
+    }
+
+    .tab_content
+    {
+        padding: 15px;
+    }
+
+
+
+    .content .block_title
+    {
+        font-size: 15px;
+        font-size: 15px;
+
+        padding: 10px 15px;
+    }
+
+
+
+    .text_block img.right
+    .text_block .iframe.right,
+    .text_block figure.right,
+    .text_block img.left,
+    .text_block .iframe.left,
+    .text_block figure.left
+    {
+        float: none;
+
+        max-width: 100%;
+        margin: 0 0 20px;
+    }
+
+
+
+    .form .columns > *.width1of3,
+    .form .columns > *.width2of3
+    {
+        width: calc(100% - var(--columns_offset));
+    }
+
+
+
+    /*---------------
+        Header
+    ---------------*/
+    header .langs .mob_link
+    {
+        display: flex;
+    }
+
+    header .langs .list
+    {
+        position: absolute;
+        z-index: 99;
+        top: 100%;
+        left: 0;
+
+        display: none;
+
+        padding: 0 15px 10px;
+
+        background: #edf1f8;
+    }
+
+    header .langs .list a.active
+    {
+        display: none;
+    }
+
+
+    header .account
+    {
+        position: static;
+    }
+
+    #login_modal
+    {
+        left: 0;
+
+        width: 100%;
+        margin-left: 0;
+        padding: 20px 30px;
+    }
+
+
+    header .info
+    {
+        padding: 15px 0;
+    }
+
+
+    header .logo
+    {
+        margin-bottom: 15px;
+    }
+
+
+    header .phones
+    {
+        padding-left: 30px;
+
+        background-size: 22px auto;
+    }
+
+    header .email
+    {
+        padding-left: 40px;
+
+        background-size: 32px auto;
+    }
+
+
+
+    /*---------------
+        Sidebar
+    ---------------*/
+
+
+
+    /*---------------
+        Main section
+    ---------------*/
+    .cats_wall .main
+    {
+        font-size: var(--font_size);
+        line-height: normal;
+    }
+
+    .cats_wall .main .thumb
+    {
+        margin-bottom: 15px;
+    }
+
+
+
+    .cats_wall .accordion .item .sub_cats
+    {
+        column-count: 2;
+        column-gap: 20px;
+    }
+
+
+
+    .advantages .item > * + *
+    {
+        margin-top: 15px;
+    }
+
+
+
+    .services .flex .item
+    {
+        font-size: var(--font_size);
+        line-height: normal;
+    }
+
+    .services .flex .item .thumb
+    {
+        margin-bottom: 15px;
+    }
+
+
+
+
+    .knowledge_base a
+    {
+        padding-left: 160px;
+
+        background: #3c78ba;
+    }
+
+    .knowledge_base .icon
+    {
+        left: -15px;
+    }
+
+
+
+    .content .head
+    {
+        margin-bottom: 25px;
+    }
+
+
+
+    .products .flex
+    {
+        margin-bottom: -25px;
+        margin-left: -15px;
+    }
+
+    .products .flex > *
+    {
+        width: calc(50% - 15px);
+        margin-bottom: 25px;
+        margin-left: 15px;
+    }
+
+
+    .products .product .sticker.new
+    {
+        right: 0;
+
+        width: 30px;
+        height: 30px;
+    }
+
+
+
+    .projects .item.all .count
+    {
+        margin-top: 35px;
+    }
+
+
+
+    .get_price .form .submit_btn
+    {
+        padding: 0 10px;
+    }
+
+
+
+    .classification .accordion .item .title
+    {
+        font-size: 17px;
+    }
+
+    .classification .accordion .item .title:after
+    {
+        font-size: 20px;
+        line-height: 20px;
+
+        height: 20px;
+    }
+
+
+
+    .feedback .form .submit
+    {
+        flex-wrap: wrap;
+    }
+
+    .feedback .form .contacts
+    {
+        width: 100%;
+        margin: 0 0 15px;
+    }
+
+
+
+    .services_tabs .contacts
+    {
+        margin-bottom: 0;
+        margin-left: 0;
+    }
+
+    .services_tabs .contacts > *
+    {
+        width: 100%;
+        margin-bottom: 0;
+        margin-left: 0;
+    }
+
+    .services_tabs .contacts > * + *
+    {
+        margin-top: 25px;
+    }
+
+    .services_tabs .contacts .empty
+    {
+        display: none;
+    }
+
+    .services_tabs .contacts .item > * + *
+    {
+        margin-top: 3px;
+    }
+
+
+
+    .for_any_tasks .item
+    {
+        padding: 15px;
+    }
+
+    .for_any_tasks .item .name
+    {
+        font-size: 17px;
+    }
+
+
+
+    .about_rent .block_head .title
+    {
+        font-size: 17px;
+        line-height: 23px;
+    }
+
+
+
+    .order .form .step .title
+    {
+        font-size: 17px;
+    }
+
+    .order .form .label
+    {
+        font-size: 13px;
+    }
+
+
+
+    .reviews_big .review
+    {
+        text-align: center;
+    }
+
+    .reviews_big .review .thumb
+    {
+        width: 100%;
+        margin-bottom: 10px;
+        padding-bottom: 100%;
+    }
+
+    .reviews_big .review .thumb .img
+    {
+        justify-content: center;
+    }
+
+
+
+    .reviews_list .level1 > .item > .title
+    {
+        font-size: 15px;
+    }
+
+
+
+    .add_review .title
+    {
+        font-size: 17px;
+        line-height: 21px;
+    }
+
+
+
+    .company_accordion .item .title
+    {
+        font-size: 15px;
+    }
+
+
+
+    .company_services .flex > *
+    {
+        padding: 15px;
+    }
+
+    .company_services .thumb
+    {
+        margin-bottom: 15px;
+    }
+
+
+
+    .company_industries .flex > *
+    {
+        padding: 15px;
+    }
+
+    .company_industries .item .name
+    {
+        font-size: 17px;
+
+        margin-bottom: 10px;
+    }
+
+
+
+    /*---------------
+        Footer
+    ---------------*/
+
+
+
+    /*---------------
+        PopUp
+    ---------------*/
+}
