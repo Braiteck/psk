@@ -129,6 +129,45 @@ $(function() {
 	})
 
 
+	// Страница филиала - основной слайдер
+	$('.branche_info .main_slider').owlCarousel({
+		items      : 1,
+		margin     : 20,
+		loop       : true,
+		dots       : true,
+		smartSpeed : 500,
+		nav        : true
+	})
+
+	// Страница филиала - клиенты
+	$('.branche_info .clients .slider').owlCarousel({
+		loop       : true,
+		nav        : true,
+		dots       : true,
+		smartSpeed : 500,
+		margin     : 5,
+		responsive : {
+			0: {
+				items : 1
+			},
+			768: {
+				items : 2
+			},
+			1280: {
+				items : 3
+			}
+		},
+		onInitialized: function(event){
+			setTimeout(() => { setHeight($(event.target).find('.item')) }, 100)
+		},
+		onResized: function(event){
+			$(event.target).find('.item').height('auto')
+
+			setTimeout(() => { setHeight($(event.target).find('.item')) }, 100)
+		}
+	})
+
+
 	// Меню
 	$('header .menu .item').mouseover(function() {
 		if ($(this).find('> a').hasClass('sub_link')) {
@@ -238,6 +277,40 @@ $(function() {
 		$product_info.trigger('to.owl.carousel', $(this).data('slide-index'))
 
 		$(this).addClass('active')
+	})
+
+
+	// Страница товара
+	$('.product_data .images .big .slider').owlCarousel({
+		items       : 1,
+		margin      : 20,
+		loop        : false,
+		smartSpeed  : 500,
+		dots        : false,
+		nav         : false,
+		onTranslate : (event) => {
+	    	let parent = $(event.target).closest('.images')
+
+	    	parent.find('.thumbs .slide > *').removeClass('active')
+	    	parent.find('.thumbs .slide:eq('+ event.item.index +') > *').addClass('active')
+	    }
+	})
+
+	$('.product_data .images .thumbs .slider').owlCarousel({
+		nav        : true,
+		dots       : false,
+		loop       : false,
+		smartSpeed : 500,
+		items      : 4,
+		margin     : 9
+	})
+
+	$('.product_data .images .thumbs .slide > *').click(function(e) {
+		e.preventDefault()
+
+		let parent = $(this).closest('.images')
+
+	    parent.find('.big .slider').trigger('to.owl.carousel', $(this).data('slide-index'))
 	})
 
 
@@ -381,5 +454,26 @@ $(function() {
 		$('html, body').stop().animate({
 			scrollTop: $(href).offset().top - addOffset
 		}, 1000)
+	})
+})
+
+
+$(window).on('load', function(){
+	// Страница филиала - сертификаты
+	$('.branche_info .certs .slider').owlCarousel({
+		loop       : true,
+		nav        : true,
+		dots       : true,
+		smartSpeed : 500,
+		autoWidth  : true,
+		items      : 4,
+		responsive : {
+			0: {
+				margin : 20
+			},
+			1600: {
+				margin : 25
+			}
+		}
 	})
 })

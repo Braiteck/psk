@@ -177,40 +177,38 @@ $(function(){
 
 
 	// Табы
-	var loationHash = window.location.hash
+	var locationHash = window.location.hash
 
-	$('.tabs_container').each(function(){
-	    $(this).find('> .tab_content:first').show()
-	})
-
-	$('body').on('click', '.tabs a', function(e) {
+	$('body').on('click', '.tabs button', function(e) {
 		e.preventDefault()
 
-	    if( !$(this).hasClass('active') ) {
-	    	let parent = $(this).closest('.tabs_container')
-		    let activeTab = $(this).attr('href')
+		if (!$(this).hasClass('active')) {
+			const $parent           = $(this).closest('.tabs_container'),
+				  activeTab         = $(this).data('content'),
+				  $activeTabContent = $(activeTab),
+				  level             = $(this).data('level')
 
-		    parent.find('> .tabs a').removeClass('active')
-		    parent.find('> .tab_content').hide()
+			$parent.find('.tabs:first button').removeClass('active')
+			$parent.find('.tab_content.' + level).removeClass('active')
 
-		    $(this).addClass('active')
-		    $(activeTab).fadeIn()
-	    }
+			$(this).addClass('active')
+			$activeTabContent.addClass('active')
+		}
 	})
 
-	if( loationHash ) {
-		let activeTab = $('.tabs a[href='+ loationHash +']')
-		let parent = activeTab.closest('.tabs_container')
+	if (locationHash && $('.tabs_container').length) {
+		const $activeTab        = $('.tabs button[data-content=' + locationHash + ']'),
+			  $activeTabContent = $(locationHash),
+			  $parent           = $activeTab.closest('.tabs_container'),
+			  level             = $activeTab.data('level')
 
-		parent.find('> .tabs a').removeClass('active')
-		parent.find('> .tab_content').hide()
+		$parent.find('.tabs:first button').removeClass('active')
+		$parent.find('.tab_content.' + level).removeClass('active')
 
-		activeTab.addClass('active')
-		$( activeTab.attr('href') ).fadeIn()
+		$activeTab.addClass('active')
+		$activeTabContent.addClass('active')
 
-		$('html, body').stop().animate({
-		   	scrollTop: $( activeTab.attr('href') ).offset().top
-		}, 1000)
+		$('html, body').stop().animate({ scrollTop: $activeTabContent.offset().top }, 1000)
 	}
 
 
@@ -276,6 +274,19 @@ $(function(){
 
 
 // Вспомогательные функции
+const setHeight = (className) => {
+	let maxheight = 0
+
+	className.each(function () {
+		const elHeight = $(this).outerHeight()
+
+		if (elHeight > maxheight) maxheight = elHeight
+	})
+
+	className.outerHeight(maxheight)
+}
+
+
 function is_touch_device() {
 	return !!('ontouchstart' in window)
 }

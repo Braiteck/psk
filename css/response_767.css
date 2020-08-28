@@ -43,11 +43,16 @@
     }
 
 
-    .text_block img.left,
-    .text_block img.right
+    .text_block img.left
     {
         max-width: calc(50% - 20px);
         margin-right: 20px;
+    }
+
+    .text_block img.right
+    {
+        max-width: calc(50% - 20px);
+        margin-left: 20px;
     }
 
 
@@ -291,8 +296,20 @@
     {
         font-size: 14px;
         line-height: 20px;
+    }
 
-        margin-right: 20px;
+    .feedback .form .contacts,
+    .feedback .form .submit_btn
+    {
+        order: 2;
+    }
+
+    .feedback .form .agree
+    {
+        width: 100%;
+        margin-bottom: 15px;
+
+        order: 1;
     }
 
 
@@ -349,6 +366,7 @@
 
         -webkit-appearance: none;
     }
+
     .classification .table_wrap::-webkit-scrollbar-thumb
     {
         border-radius: 5px;
@@ -743,6 +761,203 @@
     .term_alphabet_full .item
     {
         padding-left: 40px;
+    }
+
+
+
+    .branches > .tabs button
+    {
+        font-size: 15px;
+
+        min-height: 50px;
+        padding: 10px;
+    }
+
+    .branches > .tabs button img
+    {
+        height: 16px;
+        margin-right: 8px;
+    }
+
+
+
+    .branches .region .contacts,
+    .branches .region .locations
+    {
+        width: 100%;
+    }
+
+    .branches .region .contacts > * + *,
+    .branches .region .locations > * + *,
+    .branches .region .contacts + .locations
+    {
+        margin-top: 15px;
+    }
+
+    .branches .region .location .link
+    {
+        line-height: 32px;
+
+        height: 32px;
+        margin-top: 15px;
+    }
+
+
+    .branches .regions .tabs button
+    {
+        padding: 7px 12px;
+    }
+
+
+
+    .logistics_network .title
+    {
+        font-size: 20px;
+
+        margin-bottom: 15px;
+        padding: 0;
+    }
+
+
+
+    .branche_info .main_slider .info
+    {
+        width: 310px;
+        min-height: 210px;
+    }
+
+    .branche_info .main_slider .title
+    {
+        font-size: 20px;
+    }
+
+
+
+    .branche_info .branche_data .location .map_link
+    {
+        width: 100%;
+        margin: 0;
+    }
+
+
+
+    .branche_info .special_prices .list > *
+    {
+        padding-left: 30px;
+    }
+
+
+
+    .branche_info .objects .flex > *
+    {
+        width: calc(50% - 20px);
+    }
+
+
+
+    .branche_info .warehouse > * + *
+    {
+        margin-top: 30px;
+    }
+
+    .branche_info .warehouse .title
+    {
+        font-size: 20px;
+    }
+
+
+
+    .product_data .images
+    {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+    .product_data .data
+    {
+        width: 100%;
+    }
+
+
+    .product_features table tr
+    {
+        display: block;
+
+        width: 100%;
+        padding: 15px 20px;
+
+        border: 1px solid #d1dce4;
+    }
+
+    .product_features table tr + tr
+    {
+        margin-top: -1px;
+    }
+
+    .product_features table tr:nth-child(even)
+    {
+        background: #edf1f8;
+    }
+
+    .product_features table td
+    {
+        font-size: 14px;
+        line-height: 20px;
+
+        display: block;
+
+        width: 100%;
+        padding: 0;
+
+        border: none;
+    }
+
+    .product_features table td.name
+    {
+        margin-bottom: 6px;
+        padding-top: 0;
+        padding-bottom: 0;
+    }
+
+    .product_features table tr:nth-child(even) td
+    {
+        background: none;
+    }
+
+
+
+    .product_certs .flex
+    {
+        margin-bottom: -20px;
+        margin-left: -20px;
+    }
+
+    .product_certs .flex > *
+    {
+        width: calc(50% - 20px);
+        margin-bottom: 20px;
+        margin-left: 20px;
+    }
+
+
+
+    .product_reviews .info
+    {
+        width: 100%;
+    }
+
+    .product_reviews .form
+    {
+        width: 100%;
+        margin-top: 30px;
+        padding: 40px;
+    }
+
+
+
+    .goods .flex > *
+    {
+        width: calc(50% - 9px);
     }
 
 

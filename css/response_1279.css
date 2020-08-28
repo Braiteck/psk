@@ -43,6 +43,7 @@
 
         -webkit-appearance: none;
     }
+
     .text_block .table_wrap::-webkit-scrollbar-thumb
     {
         border-radius: 5px;
@@ -102,7 +103,7 @@
         margin-left: -5px;
     }
 
-    .tabs a
+    .tabs button
     {
         margin-bottom: 5px;
         margin-left: 5px;
@@ -904,6 +905,192 @@
     .term_alphabet_full .letter
     {
         width: 40px;
+    }
+
+
+
+    .branches > .tabs button
+    {
+        font-size: 16px;
+
+        min-height: 54px;
+    }
+
+
+    .branches .region .title
+    {
+        margin-bottom: 10px;
+    }
+
+
+    .branches .region .phone,
+    .branches .region .fax,
+    .branches .region .email,
+    .branches .region .location
+    {
+        font-size: 15px;
+        line-height: 21px;
+    }
+
+
+    .branches .regions .tabs button
+    {
+        font-size: 15px;
+        line-height: 19px;
+
+        padding: 7px 15px;
+    }
+
+
+
+    .logistics_network .title
+    {
+        font-size: 22px;
+
+        margin-bottom: 20px;
+        padding: 0 20px;
+    }
+
+
+
+    .branche_info .main_slider .info
+    {
+        width: 330px;
+        min-height: 315px;
+    }
+
+    .branche_info .main_slider .title
+    {
+        font-size: 22px;
+    }
+
+
+
+    .branche_info .special_prices > * + *
+    {
+        margin-top: 25px;
+    }
+
+
+
+    .branche_info .exhibitions .items
+    {
+        margin-top: 25px;
+        margin-bottom: -5px;
+        margin-left: -20px;
+    }
+
+    .branche_info .exhibitions .items > *
+    {
+        width: calc(50% - 20px);
+        margin-bottom: 30px;
+        margin-left: 20px;
+    }
+
+
+
+    .branche_info .certs .slider
+    {
+        padding: 0 46px;
+    }
+
+
+
+    .branche_info .objects .flex
+    {
+        margin-left: -20px;
+    }
+
+    .branche_info .objects .flex > *
+    {
+        width: calc(33.333% - 20px);
+        margin-left: 20px;
+    }
+
+
+
+    .branche_info .warehouse .title
+    {
+        font-size: 22px;
+    }
+
+
+
+    .branche_info .contacts_office .data
+    {
+        width: 100%;
+    }
+
+    .branche_info .contacts_office .img
+    {
+        width: 100%;
+        margin-top: 30px;
+    }
+
+
+
+    .product_data .data .information
+    {
+        margin-left: -20px;
+    }
+
+    .product_data .data .information > *
+    {
+        max-width: calc(100% - 20px);
+        margin-left: 20px;
+    }
+
+
+
+    .product_tabs .tabs button
+    {
+        font-size: 15px;
+
+        min-height: 43px;
+        padding: 9px 18px;
+    }
+
+    .product_tabs .tabs button span
+    {
+        font-size: 12px;
+
+        padding: 0 8px;
+    }
+
+
+
+    .product_reviews .info
+    {
+        width: calc(100% - 350px);
+    }
+
+    .product_reviews .more
+    {
+        margin-top: 18px;
+    }
+
+    .product_reviews .more button
+    {
+        font-size: 15px;
+    }
+
+    .product_reviews .form
+    {
+        width: 320px;
+        padding: 30px;
+    }
+
+
+
+    .goods .product
+    {
+        padding: 10px 10px 15px;
+    }
+
+    .goods .product .name
+    {
+        font-size: 14px;
+        line-height: 20px;
     }
 
 

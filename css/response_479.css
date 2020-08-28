@@ -56,12 +56,12 @@
 
 
 
-    .tabs a
+    .tabs button
     {
         padding: 6px 16px;
     }
 
-    .tab_content
+    .tab_content.active
     {
         padding: 15px;
     }
@@ -435,6 +435,131 @@
         font-size: 17px;
 
         margin-bottom: 10px;
+    }
+
+
+
+    .branches > .tabs button img
+    {
+        display: none;
+    }
+
+
+    .branches .region
+    {
+        padding: 0 11px;
+    }
+
+    .branches .region .sub_title
+    {
+        font-size: 15px;
+
+        margin-bottom: 20px;
+    }
+
+
+    .branches .regions .tabs button
+    {
+        font-size: 14px;
+        line-height: 18px;
+    }
+
+
+
+    .branche_info .branche_data .contacts
+    {
+        margin-left: -40px;
+    }
+
+    .branche_info .branche_data .contacts > *
+    {
+        max-width: calc(100% - 40px);
+        margin-left: 40px;
+    }
+
+    .branche_info .branche_data .location,
+    .branche_info .branche_data .phone,
+    .branche_info .branche_data .fax,
+    .branche_info .branche_data .email
+    {
+        font-size: 15px;
+        line-height: 21px;
+    }
+
+
+
+    .branche_info .exhibitions .items > *
+    {
+        width: calc(100% - 20px);
+    }
+
+
+
+    .branche_info .contacts_office .contacts
+    {
+        margin-left: -40px;
+    }
+
+    .branche_info .contacts_office .contacts > *
+    {
+        max-width: calc(100% - 40px);
+        margin-left: 40px;
+    }
+
+    .branche_info .contacts_office .location,
+    .branche_info .contacts_office .phone,
+    .branche_info .contacts_office .fax,
+    .branche_info .contacts_office .email
+    {
+        font-size: 15px;
+        line-height: 21px;
+    }
+
+
+
+    .branche_info .warehouse .contacts .location
+    {
+        font-size: 15px;
+        line-height: 21px;
+    }
+
+
+
+    .product_tabs .tabs button
+    {
+        font-size: 14px;
+
+        min-height: 40px;
+        padding: 9px 18px;
+    }
+
+
+
+    .product_features
+    {
+        margin: -16px;
+    }
+
+
+
+    .goods .product .price
+    {
+        font-size: 15px;
+        line-height: 21px;
+    }
+
+    .goods .product .price span
+    {
+        font-size: 21px;
+    }
+
+    .goods .product .details
+    {
+        font-size: 14px;
+        line-height: 20px;
+
+        width: 100%;
+        height: 40px;
     }
 
 
