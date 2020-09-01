@@ -89,6 +89,13 @@ $(function(){
 		$.fancybox.close(true)
 	})
 
+	// Увеличение картинки
+	$('.fancy_img').fancybox({
+		mobile : {
+			clickSlide : "close"
+		}
+	})
+
 
 	// Мини всплывающие окна
 	firstClick = false

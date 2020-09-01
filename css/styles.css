@@ -4374,7 +4374,7 @@ aside .banner a:hover .desc
 
 
 
-.feedback
+.feedback form
 {
     padding: 20px;
 
@@ -8784,6 +8784,1071 @@ aside .banner a:hover .desc
 .goods .product .details:hover
 {
     background: #e67817;
+}
+
+
+
+.rent_info .block
+{
+    margin-bottom: 60px;
+}
+
+
+.rent_info .block_head
+{
+    margin-bottom: 25px;
+}
+
+.rent_info .block_head .title
+{
+    color: #18427c;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 24px;
+
+    overflow: hidden;
+
+    text-transform: uppercase;
+}
+
+.rent_info .block_head .title > *
+{
+    position: relative;
+
+    display: inline-block;
+
+    padding: 0 40px;
+
+    vertical-align: top;
+}
+
+.rent_info .block_head .title > *:before,
+.rent_info .block_head .title > *:after
+{
+    position: absolute;
+    top: 0;
+    right: 100%;
+    bottom: 0;
+
+    display: block;
+
+    width: 1000px;
+    height: 2px;
+    margin: auto;
+
+    content: '';
+
+    background: #3c78ba;
+}
+
+.rent_info .block_head .title > *:after
+{
+    right: auto;
+    left: 100%;
+}
+
+
+
+
+.rent_products
+{
+    padding-top: 16px;
+}
+
+.rent_products .flex
+{
+    margin-bottom: -30px;
+    margin-left: -30px;
+}
+
+.rent_products .flex > *
+{
+    width: calc(25% - 30px);
+    margin-bottom: 30px;
+    margin-left: 30px;
+}
+
+
+.rent_products .product
+{
+    text-align: center;
+}
+
+
+.rent_products .product .thumb
+{
+    position: relative;
+
+    display: block;
+    display: flex;
+    overflow: hidden;
+
+    height: 198px;
+    margin-bottom: 13px;
+    padding: 10px;
+
+    border: 1px solid #c4d6ea;
+
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    flex-wrap: wrap;
+}
+
+.rent_products .product .thumb img
+{
+    display: block;
+
+    max-width: 100%;
+    max-height: 100%;
+}
+
+
+.rent_products .product .name
+{
+    color: #18427b;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+
+    text-transform: uppercase;
+}
+
+.rent_products .product .name a
+{
+    color: currentColor;
+
+    display: inline-block;
+
+    vertical-align: top;
+    text-decoration: none;
+}
+
+.rent_products .product .thumb:hover ~ .name a,
+.rent_products .product .name a:hover
+{
+    text-decoration: underline;
+}
+
+
+.rent_products .product .price
+{
+    color: #db363d;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 22px;
+
+    margin-top: 5px;
+}
+
+.rent_products .product .price b
+{
+    font-size: 24px;
+    font-weight: 700;
+}
+
+
+.rent_products .product .links
+{
+    color: #145bb1;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 22px;
+
+    margin-top: 10px;
+}
+
+.rent_products .product .links > * + *
+{
+    margin-top: 3px;
+}
+
+.rent_products .product .links a
+{
+    color: currentColor;
+
+    display: inline-block;
+
+    vertical-align: top;
+    text-decoration: none;
+}
+
+.rent_products .product .links a:hover
+{
+    text-decoration: underline;
+}
+
+
+.rent_products .text_block
+{
+    width: 875px;
+    max-width: 100%;
+    margin: 50px auto 0;
+}
+
+
+
+.rent_prices .table_wrap
+{
+    overflow: auto;
+
+    max-width: 100%;
+}
+
+.rent_prices table
+{
+    width: 100%;
+
+    border-spacing: 0;
+    border-collapse: collapse;
+
+    border: 1px solid #d1dce4;
+}
+
+
+.rent_prices table th
+{
+    color: #fff;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: normal;
+
+    padding: 13px 26px;
+
+    text-align: left;
+    vertical-align: middle;
+    white-space: nowrap;
+
+    border: 1px solid #d1dce4;
+    background: #18427b;
+}
+
+.rent_prices table th:first-child
+{
+    padding-right: 36px;
+    padding-left: 36px;
+}
+
+
+.rent_prices table td
+{
+    color: #333;
+    font-size: 16px;
+    line-height: 18px;
+
+    padding: 13px 26px;
+
+    text-align: left;
+    vertical-align: middle;
+    white-space: nowrap;
+
+    border: 1px solid #d1dce4;
+}
+
+.rent_prices table td:first-child
+{
+    padding-right: 36px;
+    padding-left: 36px;
+
+    white-space: normal;
+}
+
+
+.rent_prices .send_request
+{
+    margin-top: 27px;
+
+    text-align: center;
+}
+
+.rent_prices .send_request button
+{
+    color: #fff;
+    font: var(--font_size)/38px var(--font_family);
+
+    display: inline-block;
+
+    height: 45px;
+    padding: 0 27px;
+
+    cursor: pointer;
+    transition: .2s linear;
+    vertical-align: top;
+    text-transform: uppercase;
+
+    border: none;
+    border-radius: var(--form_border_radius);
+    outline: 3px solid #fff;
+    outline-offset: -6px;
+    background: #e67817;
+}
+
+
+
+.rent_advantages
+{
+    padding: 60px 0;
+
+    background: #f9f9f9;
+}
+
+
+.rent_advantages .flex
+{
+    margin-bottom: -40px;
+    margin-left: -40px;
+    padding-top: 20px;
+}
+
+.rent_advantages .flex > *
+{
+    width: calc(33.333% - 40px);
+    margin-bottom: 40px;
+    margin-left: 40px;
+}
+
+
+.rent_advantages .item
+{
+    color: #333;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 22px;
+
+    display: flex;
+
+    justify-content: space-between;
+    align-items: flex-start;
+    align-content: flex-start;
+    flex-wrap: wrap;
+}
+
+.rent_advantages .item .icon
+{
+    width: 60px;
+}
+
+.rent_advantages .item .icon img
+{
+    display: block;
+
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.rent_advantages .item .icon + *
+{
+    width: calc(100% - 80px);
+
+    align-self: center;
+}
+
+
+
+.rent_action .data
+{
+    position: relative;
+    z-index: 3;
+
+    display: flex;
+    overflow: hidden;
+
+    padding: 90px 74px;
+
+    background: #000;
+
+    justify-content: space-between;
+    align-items: center;
+    align-content: center;
+    flex-wrap: wrap;
+}
+
+.rent_action .bg
+{
+    position: absolute;
+    z-index: -1;
+    top: 0;
+    left: 0;
+
+    width: 100%;
+    height: 100%;
+
+    pointer-events: none;
+
+    opacity: .6;
+    background: url(../images/tmp/bg_rent_action.jpg) 50%/cover no-repeat;
+}
+
+
+.rent_action .info
+{
+    color: #fff;
+    font-size: 20px;
+    font-weight: 700;
+
+    width: 440px;
+    max-width: 100%;
+}
+
+.rent_action .info > * + *
+{
+    margin-top: 60px;
+}
+
+.rent_action .info .title
+{
+    font-size: 36px;
+
+    margin-top: 3px;
+}
+
+
+.rent_action .form
+{
+    width: 373px;
+    max-width: 100%;
+    padding: 37px;
+
+    background: #18427c;
+}
+
+.rent_action .form .title
+{
+    color: #fff;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 22px;
+
+    margin-bottom: 3px;
+}
+
+.rent_action .form .desc
+{
+    color: #fff;
+    font-size: 14px;
+    line-height: 22px;
+
+    margin-bottom: 20px;
+}
+
+.rent_action .form ::-webkit-input-placeholder
+{
+    color: #a9a9a9;
+}
+
+.rent_action .form :-moz-placeholder
+{
+    color: #a9a9a9;
+}
+
+.rent_action .form :-ms-input-placeholder
+{
+    color: #a9a9a9;
+}
+
+.rent_action .form .input
+{
+    padding: 0 11px;
+}
+
+.rent_action .form .submit
+{
+    display: flex;
+
+    padding-top: 7px;
+
+    justify-content: center;
+    align-items: flex-start;
+    align-content: flex-start;
+    flex-wrap: wrap;
+}
+
+.rent_action .form .submit_btn
+{
+    line-height: 45px;
+
+    width: auto;
+    height: 45px;
+    margin: 0;
+    padding: 0 35px;
+
+    outline: 2px solid #18427b;
+    outline-offset: -5px;
+}
+
+
+
+.rent_media .tabs
+{
+    margin-bottom: 20px;
+    margin-left: 0;
+
+    border-bottom: 2px solid #3c78ba;
+
+    justify-content: center;
+}
+
+.rent_media .tabs button
+{
+    font-size: 16px;
+    font-weight: 700;
+
+    width: 139px;
+    height: 46px;
+    margin-bottom: 0;
+    margin-left: 0;
+}
+
+.rent_media .tabs button + button
+{
+    margin-left: 8px;
+}
+
+
+.rent_media .tab_content.active
+{
+    padding: 0;
+
+    border: none;
+}
+
+
+.rent_media .flex
+{
+    margin-bottom: -18px;
+    margin-left: -18px;
+}
+
+.rent_media .flex > *
+{
+    width: calc(25% - 18px);
+    margin-bottom: 18px;
+    margin-left: 18px;
+}
+
+
+.rent_media .item
+{
+    position: relative;
+
+    display: block;
+
+    padding: 7px;
+
+    border: 1px solid #c4d6ea;
+}
+
+.rent_media .item:after
+{
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+
+    display: block;
+
+    width: 50px;
+    height: 50px;
+    margin: auto;
+
+    content: '';
+    transition: opacity .2s linear;
+
+    opacity: 0;
+    border-radius: 50%;
+    background: #18427b url(../images/ic_zoom2.svg) 50%/18px 18px no-repeat;
+}
+
+.rent_media .item > div
+{
+    position: relative;
+
+    display: block;
+    overflow: hidden;
+
+    padding-bottom: 63.4%;
+}
+
+.rent_media .item > div img
+{
+    position: absolute;
+    top: 0;
+    left: 0;
+
+    display: block;
+
+    width: 100%;
+    height: 100%;
+
+    transition: opacity .2s linear;
+
+    object-fit: cover;
+}
+
+
+.rent_media .item:hover > div img
+{
+    opacity: .5;
+}
+
+.rent_media .item:hover:after
+{
+    opacity: 1;
+}
+
+
+
+.rent_parts .flex
+{
+    margin-bottom: -30px;
+    margin-left: -30px;
+}
+
+.rent_parts .flex > *
+{
+    width: calc(33.333% - 30px);
+    margin-bottom: 30px;
+    margin-left: 30px;
+}
+
+
+.rent_parts .item
+{
+    color: #145bb1;
+    font-size: 16px;
+    line-height: 18px;
+
+    display: block;
+
+    text-align: center;
+    text-decoration: none;
+}
+
+
+.rent_parts .item .thumb
+{
+    margin-bottom: 13px;
+    padding: 19px;
+
+    border: 1px solid #c4d6ea;
+}
+
+.rent_parts .item .thumb > div
+{
+    position: relative;
+
+    display: block;
+    overflow: hidden;
+
+    padding-bottom: 63.4%;
+
+    background: #ddd;
+}
+
+.rent_parts .item .thumb > div img
+{
+    position: absolute;
+    top: 0;
+    left: 0;
+
+    display: block;
+
+    width: 100%;
+    height: 100%;
+
+    transition: opacity .2s linear;
+
+    object-fit: cover;
+}
+
+.rent_parts .item:hover
+{
+    text-decoration: underline;
+}
+
+
+
+.rent_features .text_block
+{
+    width: 875px;
+    max-width: 100%;
+    margin: 0 auto;
+}
+
+
+
+.rent_certs .flex
+{
+    margin-bottom: -18px;
+    margin-left: -18px;
+    padding-top: 10px;
+}
+
+.rent_certs .flex > *
+{
+    width: calc(20% - 18px);
+    margin-bottom: 18px;
+    margin-left: 18px;
+}
+
+
+.rent_certs .item
+{
+    position: relative;
+
+    display: block;
+
+    padding: 12px;
+
+    text-align: center;
+    text-decoration: none;
+
+    border: 1px solid #c4d6ea;
+}
+
+.rent_certs .item:after
+{
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+
+    display: block;
+
+    width: 50px;
+    height: 50px;
+    margin: auto;
+
+    content: '';
+    transition: opacity .2s linear;
+
+    opacity: 0;
+    border-radius: 50%;
+    background: #18427b url(../images/ic_zoom2.svg) 50%/18px 18px no-repeat;
+}
+
+.rent_certs .item .thumb
+{
+    position: relative;
+
+    display: block;
+    overflow: hidden;
+
+    padding-bottom: 142.13%;
+}
+
+.rent_certs .item .thumb img
+{
+    position: absolute;
+    top: 0;
+    left: 0;
+
+    display: block;
+
+    width: 100%;
+    height: 100%;
+
+    transition: opacity .2s linear;
+
+    object-fit: cover;
+}
+
+
+.rent_certs .item:hover > div img
+{
+    opacity: .5;
+}
+
+.rent_certs .item:hover:after
+{
+    opacity: 1;
+}
+
+
+
+.rent_docs .flex
+{
+    margin-bottom: -30px;
+    margin-left: -30px;
+}
+
+.rent_docs .flex > *
+{
+    width: calc(25% - 30px);
+    margin-bottom: 30px;
+    margin-left: 30px;
+}
+
+
+.rent_docs .doc
+{
+    color: var(--text_color);
+    font-size: 15px;
+    line-height: 18px;
+
+    display: block;
+
+    text-decoration: none;
+}
+
+.rent_docs .doc .icon
+{
+    display: flex;
+
+    height: 36px;
+    margin-bottom: 10px;
+
+    justify-content: flex-start;
+    align-items: center;
+    align-content: center;
+    flex-wrap: wrap;
+}
+
+.rent_docs .doc .icon img
+{
+    display: block;
+
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.rent_docs .doc .name
+{
+    color: #3c78ba;
+
+    text-decoration: underline;
+}
+
+.rent_docs .doc .size
+{
+    margin-top: 6px;
+}
+
+.rent_docs .doc:hover .name
+{
+    text-decoration: none;
+}
+
+
+
+.rent_reviews
+{
+    padding: 60px 0;
+
+    background: #f9f9f9;
+}
+
+
+.rent_reviews .slider
+{
+    width: 1170px;
+    max-width: 100%;
+    margin: 0 auto 30px;
+    padding: 0 90px;
+}
+
+.rent_reviews .owl-carousel .owl-nav button.owl-prev
+{
+    left: 0;
+}
+
+.rent_reviews .owl-carousel .owl-nav button.owl-next
+{
+    right: 0;
+}
+
+
+.rent_reviews .review
+{
+    display: flex;
+
+    justify-content: space-between;
+    align-items: flex-start;
+    align-content: flex-start;
+    flex-wrap: wrap;
+}
+
+
+.rent_reviews .review .fb_like
+{
+    display: flex;
+
+    width: 140px;
+    height: 130px;
+    padding: 15px;
+
+    border: 1px solid #c0d2e6;
+
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    flex-wrap: wrap;
+}
+
+.rent_reviews .review .fb_like img
+{
+    display: block;
+
+    max-width: 100%;
+    max-height: 100%;
+}
+
+
+.rent_reviews .review .info
+{
+    width: calc(100% - 440px);
+    padding-top: 45px;
+}
+
+.rent_reviews .review .author
+{
+    color: #18427b;
+    font-size: 20px;
+
+    margin-bottom: 30px;
+}
+
+.rent_reviews .review .author .name
+{
+    font-weight: 700;
+}
+
+.rent_reviews .review .text_block
+{
+    font-size: 16px;
+    line-height: 22px;
+}
+
+
+.rent_reviews .review .thumb
+{
+    display: block;
+
+    width: 220px;
+    padding: 10px;
+
+    border: 1px solid #c0d2e6;
+}
+
+.rent_reviews .review .thumb img
+{
+    display: block;
+
+    width: 100%;
+}
+
+
+.rent_reviews .owl-carousel .owl-dots
+{
+    bottom: -30px;
+
+    height: 8px;
+}
+
+.rent_reviews .owl-carousel .owl-dots > * + *
+{
+    margin-left: 10px;
+}
+
+.rent_reviews .owl-carousel button.owl-dot
+{
+    width: 8px;
+    height: 8px;
+
+    opacity: 1;
+    border-radius: 0;
+    background: #728bae;
+}
+
+.rent_reviews .owl-carousel button.owl-dot:hover,
+.rent_reviews .owl-carousel button.owl-dot.active
+{
+    background: #e67817;
+}
+
+
+
+.rent_clients .flex
+{
+    margin-bottom: -30px;
+    margin-left: -30px;
+
+    align-items: center;
+    align-content: center;
+}
+
+.rent_clients .flex > *
+{
+    width: calc(20% - 30px);
+    margin-bottom: 30px;
+    margin-left: 30px;
+}
+
+
+.rent_clients .item img
+{
+    display: block;
+
+    max-width: 100%;
+    max-height: 100%;
+    margin: 0 auto;
+}
+
+
+
+.rent_feedback .form
+{
+    padding: 22px 48px;
+}
+
+.rent_feedback .form .columns
+{
+    margin-left: -28px;
+
+    --columns_offset: 28px;
+}
+
+.rent_feedback .form .agree label br
+{
+    display: none;
+}
+
+
+
+.load_more
+{
+    margin-top: 22px;
+
+    text-align: center;
+}
+
+.load_more button
+{
+    color: #fff;
+    font-family: var(--font_family);
+    font-size: var(--font_size);
+    line-height: 40px;
+
+    display: inline-block;
+
+    height: 38px;
+    padding: 0 25px;
+
+    cursor: pointer;
+    transition: .2s linear;
+    transition: background .2s linear;
+    vertical-align: top;
+    text-transform: uppercase;
+
+    border: none;
+    background: #18427b;
+}
+
+.load_more button:hover
+{
+    background: #e6782f;
 }
 
 

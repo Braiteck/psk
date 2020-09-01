@@ -98,6 +98,156 @@
 
 
 
+    .rent_products .flex > *
+    {
+        width: calc(50% - 20px);
+    }
+
+    .rent_products .product .thumb
+    {
+        height: 198px;
+    }
+
+
+
+    .rent_prices .table_wrap
+    {
+        padding-bottom: 10px;
+    }
+
+    .rent_prices .table_wrap::-webkit-scrollbar
+    {
+        width: 7px;
+        height: 10px;
+
+        border-radius: 5px;
+        background-color: rgba(0,0,0,.1);
+
+        -webkit-appearance: none;
+    }
+
+    .rent_prices .table_wrap::-webkit-scrollbar-thumb
+    {
+        border-radius: 5px;
+        background-color: #3c78ba;
+    }
+
+    .rent_prices table
+    {
+        width: 984px;
+    }
+
+
+
+    .rent_advantages .flex
+    {
+        margin-left: -40px;
+    }
+
+    .rent_advantages .flex > *
+    {
+        width: calc(50% - 40px);
+        margin-left: 40px;
+    }
+
+
+
+    .rent_action .data
+    {
+        padding: 40px;
+    }
+
+    .rent_action .info
+    {
+        width: 100%;
+        margin-bottom: 35px;
+    }
+
+    .rent_action .info > * + *
+    {
+        margin-top: 35px;
+    }
+
+    .rent_action .info .title
+    {
+        font-size: 28px;
+        line-height: 32px;
+    }
+
+
+
+    .rent_media .flex
+    {
+        margin-bottom: -20px;
+        margin-left: -20px;
+    }
+
+    .rent_media .flex > *
+    {
+        width: calc(33.333% - 20px);
+        margin-bottom: 20px;
+        margin-left: 20px;
+    }
+
+
+
+    .rent_parts .flex > *
+    {
+        width: calc(50% - 20px);
+    }
+
+
+
+    .rent_certs .flex
+    {
+        margin-bottom: -20px;
+        margin-left: -20px;
+    }
+
+    .rent_certs .flex > *
+    {
+        width: calc(33.333% - 20px);
+        margin-bottom: 20px;
+        margin-left: 20px;
+    }
+
+
+
+    .rent_docs .flex > *
+    {
+        width: calc(33.333% - 20px);
+        margin-left: 20px;
+    }
+
+
+
+    .rent_reviews .review .fb_like
+    {
+        display: none;
+    }
+
+    .rent_reviews .review .info
+    {
+        width: calc(100% - 250px);
+        padding-top: 0;
+    }
+
+
+
+    .rent_clients .flex > *
+    {
+        width: calc(33.333% - 20px);
+    }
+
+
+
+    .rent_feedback .form .agree label br
+    {
+        display: block;
+    }
+
+
+
     /*---------------
         Footer
     ---------------*/

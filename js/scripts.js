@@ -168,6 +168,17 @@ $(function() {
 	})
 
 
+	// Отзывы об аренде
+	$('.rent_reviews .slider').owlCarousel({
+		loop       : true,
+		nav        : true,
+		dots       : true,
+		smartSpeed : 500,
+		items      : 1,
+		margin     : 20
+	})
+
+
 	// Меню
 	$('header .menu .item').mouseover(function() {
 		if ($(this).find('> a').hasClass('sub_link')) {

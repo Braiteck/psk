@@ -962,6 +962,193 @@
 
 
 
+    .rent_info .block
+    {
+        margin-bottom: 50px;
+    }
+
+    .rent_info .block_head .title
+    {
+        font-size: 18px;
+        line-height: 22px;
+    }
+
+    .rent_info .block_head .title > *
+    {
+        padding: 0 20px;
+    }
+
+    .rent_info .block_head .title br
+    {
+        display: none;
+    }
+
+
+
+    .rent_products .product .thumb
+    {
+        height: 135px;
+    }
+
+    .rent_products .product .name
+    {
+        font-size: 14px;
+        line-height: 22px;
+    }
+
+    .rent_products .product .price,
+    .rent_products .product .links
+    {
+        font-size: 14px;
+        line-height: 20px;
+    }
+
+    .rent_products .product .price b
+    {
+        font-size: 20px;
+    }
+
+
+    .rent_products .text_block
+    {
+        margin-top: 40px;
+    }
+
+
+
+    .rent_advantages
+    {
+        padding: 50px 0;
+    }
+
+    .rent_advantages .flex
+    {
+        margin-left: -20px;
+    }
+
+    .rent_advantages .flex > *
+    {
+        width: calc(50% - 20px);
+        margin-left: 20px;
+    }
+
+    .rent_advantages .item
+    {
+        text-align: center;
+    }
+
+    .rent_advantages .item .icon
+    {
+        margin: 0 auto 12px;
+    }
+
+    .rent_advantages .item .icon + *
+    {
+        width: 100%;
+    }
+
+
+
+    .rent_action .data
+    {
+        padding: 30px;
+    }
+
+    .rent_action .info .title
+    {
+        font-size: 26px;
+        line-height: 30px;
+    }
+
+
+
+    .rent_media .flex
+    {
+        margin-bottom: -15px;
+        margin-left: -15px;
+    }
+
+    .rent_media .flex > *
+    {
+        width: calc(50% - 15px);
+        margin-bottom: 15px;
+        margin-left: 15px;
+    }
+
+
+
+    .rent_parts .item .thumb
+    {
+        margin-bottom: 10px;
+        padding: 9px;
+    }
+
+
+
+    .rent_certs .flex > *
+    {
+        width: calc(50% - 20px);
+    }
+
+
+
+    .rent_docs .flex > *
+    {
+        width: calc(50% - 20px);
+    }
+
+
+
+    .rent_reviews
+    {
+        padding: 50px 0;
+    }
+
+    .rent_reviews .slider
+    {
+        padding: 0;
+    }
+
+    .rent_reviews .owl-carousel .owl-nav button,
+    .rent_reviews .owl-carousel .owl-nav button
+    {
+        display: none;
+    }
+
+
+    .rent_reviews .review .info
+    {
+        width: 100%;
+
+        text-align: center;
+    }
+
+    .rent_reviews .review .author
+    {
+        margin-bottom: 20px;
+    }
+
+    .rent_reviews .review .thumb
+    {
+        margin: 25px auto 0;
+    }
+
+
+
+    .rent_feedback .form .agree label br
+    {
+        display: none;
+    }
+
+
+
+    .load_more
+    {
+        margin-top: 20px;
+    }
+
+
+
     /*---------------
         Footer
     ---------------*/

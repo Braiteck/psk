@@ -564,6 +564,37 @@
 
 
 
+    .rent_products .flex > *
+    {
+        width: calc(100% - 20px);
+    }
+
+    .rent_products .product .thumb
+    {
+        height: 198px;
+    }
+
+
+
+    .rent_prices table th,
+    .rent_prices table th:first-child,
+    .rent_prices table td,
+    .rent_prices table td:first-child
+    {
+        font-size: 14px;
+        line-height: 20px;
+
+        padding: 10px 15px;
+    }
+
+
+    .rent_prices .send_request
+    {
+        margin-top: 20px;
+    }
+
+
+
     /*---------------
         Footer
     ---------------*/

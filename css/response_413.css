@@ -821,6 +821,120 @@
 
 
 
+    .rent_info .block_head
+    {
+        margin-bottom: 20px;
+    }
+
+    .rent_info .block_head .title
+    {
+        font-size: 17px;
+        line-height: 23px;
+    }
+
+
+
+    .rent_products .product .thumb
+    {
+        height: 165px;
+    }
+
+
+
+    .rent_advantages .flex
+    {
+        margin-left: 0;
+    }
+
+    .rent_advantages .flex > *
+    {
+        width: 100%;
+        margin-left: 0;
+    }
+
+
+
+    .rent_action .data
+    {
+        padding: 20px;
+    }
+
+    .rent_action .info
+    {
+        font-size: 17px;
+
+        margin-bottom: 30px;
+    }
+
+    .rent_action .info .title
+    {
+        font-size: 24px;
+        line-height: 28px;
+    }
+
+
+    .rent_action .form
+    {
+        padding: 20px;
+    }
+
+    .rent_action .form .title
+    {
+        font-size: 17px;
+        line-height: 21px;
+
+        margin-bottom: 9px;
+    }
+
+    .rent_action .form .desc
+    {
+        font-size: 14px;
+        line-height: 18px;
+    }
+
+
+
+    .rent_parts .flex > *
+    {
+        width: calc(100% - 20px);
+    }
+
+
+
+    .rent_certs .flex
+    {
+        margin-bottom: -15px;
+        margin-left: -15px;
+        padding-top: 0;
+    }
+
+    .rent_certs .flex > *
+    {
+        margin-bottom: 15px;
+        margin-left: 15px;
+    }
+
+    .rent_certs .item
+    {
+        padding: 9px;
+    }
+
+
+
+    .rent_reviews .review .author
+    {
+        font-size: 16px;
+    }
+
+
+
+    .rent_clients .flex > *
+    {
+        width: calc(50% - 20px);
+    }
+
+
+
     /*---------------
         Footer
     ---------------*/
